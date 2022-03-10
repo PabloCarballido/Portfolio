@@ -257,6 +257,7 @@ hr {
 }
 
 .proximamente_gallery {
+  /*  */
   width: 100%;
   display: flex;
   flex-flow: row wrap;
