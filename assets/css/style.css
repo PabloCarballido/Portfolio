@@ -172,7 +172,7 @@ li.menu__container_contact a:hover {
 /* CONOCIMIENTOS */
 
 .conocimientos_bgc {
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(205 202 202 / 35%);
   padding: 95px 0;
   margin-top: 60px;
 }
@@ -195,6 +195,7 @@ li.menu__container_contact a:hover {
 }
 
 .conocimientos_text h3 {
+  color: #3e3e3ede;
   font-size: 45px;
 }
 
@@ -257,6 +258,7 @@ hr {
 }
 
 .proximamente_text h3 {
+  color: #3e3e3ede;
   font-size: 40px;
   align-self: center;
 }
@@ -342,6 +344,10 @@ hr {
 
 /* PROJECTS */
 
+.project_bgc{
+  background-color: rgb(205 202 202 / 35%);
+}
+
 .project_container{
   width: 85%;
   margin: 0 auto;
@@ -350,6 +356,20 @@ hr {
   flex-direction: column;
   align-items: center;
   gap: 60px;
+}
+
+.project_text{
+  text-align: center;
+  line-height: 50px;
+}
+
+.project_text h3{
+  font-size: 40px;
+  color: #3e3e3ede;
+}
+
+.project_text p{
+  font-size: 17px;
 }
 
 .project_gallery{
@@ -361,9 +381,10 @@ hr {
 }
 
 .project_gallery_item{
+  background-color: #fff;
   width: 300px;
   padding: 20px 10px;
-  border: solid 1px rgba(173, 172, 172, 0.76);
+  border: solid 1px #5a45ff70;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -372,7 +393,7 @@ hr {
 }
 
 .project_gallery_item:hover{
-  border: solid 1px var(--color-contact);
+  box-shadow: #5a45ffcf 0px 0px 4px;
 }
 
 .project_gallery_item img{
@@ -382,7 +403,7 @@ hr {
 /* CONTACT */
 
 .contact_bgc{
-  background-color: rgb(240, 240, 240);
+  background-color:#5e6fc3;
   padding: 80px 100px;
 }
 
