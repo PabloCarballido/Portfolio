@@ -186,9 +186,10 @@
 			</div>
 			<div class="contact_bgc" id="contact">
 				<div class="contact_container">
+					<div class="contact_container_item">
 					<section class="contact_social">
 						<div class="contact_social_text">
-							<h4>Contactame</h4>
+							<h4>¡Contactame!</h4>
 							<p>Lorem ipsum dolor sit amet consectetur.</p>
 						</div>
 						<div class="contact_social_list">
@@ -207,13 +208,18 @@
 						</div>
 					</section>
 					<section class="contact_msg">
-						<h4>Escribime</h4>
-						<form action="">
-							<label for="name">Nombre</label>
-							<input type="text" id="name" />
-							<label for=""></label>
+						<h4>¡Dejame un mensaje!</h4>
+						<form action="POST" class="contact_msg_form">
+							<div class="contact_msg_form_input">
+							<input type="text" name="name" placeholder="Nombre" required/>
+							<input type="email" name="email" placeholder="Email" required>
+						</div>
+						<div class="contact_msg_form_textarea">
+							<textarea name="message" placeholder="Mensaje..." cols="30" rows="10" required></textarea>
+						</div>
 						</form>
 					</section>
+				</div>
 				</div>
 			</div>
 		</main>
