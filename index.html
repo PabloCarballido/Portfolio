@@ -41,7 +41,9 @@
 					<li><a href="#conocimientos">CONOCIMIENTOS</a></li>
 					<li><a href="#hobbies">HOBBIES</a></li>
 					<li><a href="#projects">PROYECTOS</a></li>
-					<li class="menu__container_contact"><a href="#contact">CONTACTO</a></li>
+					<li class="menu__container_contact">
+						<a href="#contact">CONTACTO</a>
+					</li>
 				</ul>
 			</nav>
 		</header>
@@ -141,10 +143,10 @@
 					<div class="project_gallery">
 						<div class="project_gallery_item">
 							<img
-								src="./assets/img/undraw_design_community_rcft.svg"
+								src="./assets/img/preview.png"
 								alt="proyecto porfolio"
 							/>
-							<h4>Lorem, ipsum.</h4>
+							<h4>Porfolio</h4>
 						</div>
 						<div class="project_gallery_item">
 							<img
@@ -187,64 +189,113 @@
 			<div class="contact_bgc" id="contact">
 				<div class="contact_container">
 					<div class="contact_container_item">
-					<section class="contact_social">
-						<div class="contact_social_text">
-							<h4>¡Contactame!</h4>
-							<p>Lorem ipsum dolor sit amet consectetur.</p>
-						</div>
-						<div class="contact_social_list">
-							<div class="contact_social_list_item">
-								<i class="fa-brands fa-linkedin"></i>
-								<span>Pablo Carballido</span>
+						<section class="contact_social">
+							<div class="contact_social_text">
+								<h4>¡Contactame!</h4>
+								<p>¡Podes mirar el código de este porfolio o mandarme un mensaje!</p>
 							</div>
-							<div class="contact_social_list_item">
-								<i class="fa-brands fa-github"></i>
-								<span>PabloCarballido</span>
+							<div class="contact_social_list">
+								<div class="contact_social_list_item">
+									<i class="fa-brands fa-linkedin"></i>
+									<span>Pablo Carballido</span>
+								</div>
+								<div class="contact_social_list_item">
+									<i class="fa-brands fa-github"></i>
+									<span>PabloCarballido</span>
+								</div>
+								<div class="contact_social_list_item">
+									<i class="fa-solid fa-envelope"></i>
+									<span>pablodaniel.carballido@gmail.com</span>
+								</div>
 							</div>
-							<div class="contact_social_list_item">
-								<i class="fa-solid fa-envelope"></i>
-								<span>pablodaniel.carballido@gmail.com</span>
-							</div>
+						</section>
+						<section class="contact_msg">
+							<div class="contact_msg_text">
+							<h4>¡Dejame un mensaje!</h4>
 						</div>
-					</section>
-					<section class="contact_msg">
-						<h4>¡Dejame un mensaje!</h4>
-						<form action="POST" class="contact_msg_form">
-							<div class="contact_msg_form_input">
-							<input type="text" name="name" placeholder="Nombre" required/>
-							<input type="email" name="email" placeholder="Email" required>
+						<div class="contact_msg_form">
+							<form action="POST">
+								<div class="contact_msg_form_input">
+									<input
+										type="text"
+										name="name"
+										placeholder="Nombre"
+										required
+									/>
+									<input
+										type="email"
+										name="email"
+										placeholder="Email"
+										required
+									/>
+								</div>
+								<div class="contact_msg_form_textarea">
+									<textarea
+										name="message"
+										placeholder="Mensaje..."
+										cols="30"
+										rows="10"
+										required
+									></textarea>
+								</div>
+								<div class="contact_msg_form_button">
+									<button class="cssbuttons-io-button">ENVIAR
+										<div class="icon">
+										  <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor"></path></svg>
+										</div>
+									  </button>
+								</div>
+							</form>
 						</div>
-						<div class="contact_msg_form_textarea">
-							<textarea name="message" placeholder="Mensaje..." cols="30" rows="10" required></textarea>
-						</div>
-						</form>
-					</section>
-				</div>
+						</section>
+					</div>
 				</div>
 			</div>
 		</main>
 		<footer>
 			<div class="footer_bgc">
-        <section class="footer_container">
-          <div class="footer_anchor">
-            <ul class="footer_anchor_ul">
-              <li class="footer_anchor_ul_li"><a href="#">HOLA</a></li>
-              <li class="footer_anchor_ul_li"><a href="#conocimientos">CONOCIMIENTOS</a></li>
-              <li class="footer_anchor_ul_li"><a href="#hobbies">HOBBIES</a></li>
-              <li class="footer_anchor_ul_li"><a href="#projects">PROYECTOS</a></li>
-              <li class="footer_anchor_ul_li"><a href="#contact">CONTACTO</a></li>
-            </ul>
-          </div>
-          <div class="footer_social">
-            <div class="footer_social_item"><a href="https://www.linkedin.com/in/pablocarballido" target="_BLANK"><i class="fa-brands fa-linkedin"></i></a></div>
-            <div class="footer_social_item"><a href="https://github.com/PabloCarballido" target="_BLANK"><i class="fa-brands fa-github"></i></a></div>
-            <div class="footer_social_item"><a href="mailto:pablodaniel.carballido@gmail.com"><i class="fa-solid fa-envelope"></i></a></div>
-          </div>
-          <div class="footer_text">
-            <p>Hecho con ❤ por Pablo</p>
-          </div>
-        </section>
-      </div>
+				<section class="footer_container">
+					<div class="footer_anchor">
+						<ul class="footer_anchor_ul">
+							<li class="footer_anchor_ul_li"><a href="#">HOLA</a></li>
+							<li class="footer_anchor_ul_li">
+								<a href="#conocimientos">CONOCIMIENTOS</a>
+							</li>
+							<li class="footer_anchor_ul_li">
+								<a href="#hobbies">HOBBIES</a>
+							</li>
+							<li class="footer_anchor_ul_li">
+								<a href="#projects">PROYECTOS</a>
+							</li>
+							<li class="footer_anchor_ul_li">
+								<a href="#contact">CONTACTO</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer_social">
+						<div class="footer_social_item">
+							<a
+								href="https://www.linkedin.com/in/pablocarballido"
+								target="_BLANK"
+								><i class="fa-brands fa-linkedin"></i
+							></a>
+						</div>
+						<div class="footer_social_item">
+							<a href="https://github.com/PabloCarballido" target="_BLANK"
+								><i class="fa-brands fa-github"></i
+							></a>
+						</div>
+						<div class="footer_social_item">
+							<a href="mailto:pablodaniel.carballido@gmail.com"
+								><i class="fa-solid fa-envelope"></i
+							></a>
+						</div>
+					</div>
+					<div class="footer_text">
+						<p>Hecho con ❤ por Pablo</p>
+					</div>
+				</section>
+			</div>
 		</footer>
 	</body>
 </html>
