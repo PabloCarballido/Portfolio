@@ -5,8 +5,17 @@
 ::-moz-placeholder { color: #fff; font-weight: 500;}
 :-ms-input-placeholder { color: #fff; font-weight: 500; }
 
+
 :root {
   --color-contact: rgb(108, 99, 255);
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: var(--color-contact);
+}
+
+::-webkit-scrollbar{
+  background-color: rgba(134, 129, 224, 0.894);
 }
 
 * {
