@@ -632,3 +632,39 @@ hr {
   font-size: 36px;
   color: #fff;
 }
+
+/* MOBILE */
+@media screen and (max-width: 767px){
+
+  nav{
+    display: none;
+  }
+  
+  .presentation{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .presentation_text{
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .presentation_text span{
+    font-size: 26px;
+  }
+
+  .presentation_text h1{
+    font-size: 40px;
+  }
+
+  .presentation_text p{
+
+  }
+
+  .presentation_img div img{
+    width:400px;
+  }
+}
