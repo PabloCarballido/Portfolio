@@ -223,8 +223,9 @@ li.menu__container_contact a:hover {
 
 .conocimientos_gallery {
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
+  flex-flow: row wrap;
+  justify-content: center;
+  row-gap: 25px;
   width: 85%;
 }
 
@@ -244,62 +245,6 @@ li.menu__container_contact a:hover {
 }
 
 .conocimientos_gallery_item i {
-  font-size: 80px;
-  padding: 20px;
-}
-
-/* PROXIMAMENTE (conocimientos) */
-
-hr {
-  margin: 50px auto 0;
-  width: 45%;
-  border: solid 1px #8994cda6;
-}
-
-.proximamente_container {
-  width: 85%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.proximamente_text {
-  margin: 40px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.proximamente_text h3 {
-  color: #3e3e3ede;
-  font-size: 40px;
-  align-self: center;
-}
-
-.proximamente_gallery {
-  width: 85%;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-}
-
-.proximamente_gallery_item {
-  padding: 40px;
-  width: 300px;
-  margin: 0 40px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #fff;
-}
-
-.proximamente_gallery_item:hover {
-  box-shadow: #1633c1 0px 0px 6px;
-}
-
-.proximamente_gallery_item i {
   font-size: 80px;
   padding: 20px;
 }
@@ -640,11 +585,12 @@ hr {
     display: none;
   }
   
+  /* PRESENTATION */
+
   .presentation{
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 100%;
   }
 
   .presentation_text{
@@ -667,4 +613,16 @@ hr {
   .presentation_img div img{
     width:400px;
   }
+
+  /* SKILLS */
+
+  .conocimientos_gallery{
+    flex-flow: row wrap;
+  }
+
+  .conocimientos_gallery_item{
+    width: 183px;
+    margin: 0 10px;
+  }
+
 }
