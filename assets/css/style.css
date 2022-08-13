@@ -592,6 +592,7 @@ li.menu__container_contact a:hover {
   /* PRESENTATION */
 
   .presentation{
+    width: 100vw;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -611,7 +612,7 @@ li.menu__container_contact a:hover {
   }
 
   .presentation_text p{
-
+    text-align: center;
   }
 
   .presentation_img div img{
@@ -620,13 +621,51 @@ li.menu__container_contact a:hover {
 
   /* SKILLS */
 
+  .conocimientos_container{
+    width: 100vw;
+  }
+
   .conocimientos_gallery{
     flex-flow: row wrap;
   }
 
+  .conocimientos_text h3, .conocimientos_text p{
+    text-align: center;
+  }
+
   .conocimientos_gallery_item{
-    width: 183px;
+    width: 160px;
     margin: 0 10px;
+  }
+
+  /* HOBBIES */
+
+  .hobbies_container{
+    width: 100vw;
+  }
+
+  /* PROJECTS */
+
+  .project_container{
+    width: 100vw;
+  }
+
+  /* CONTACT */
+
+  .contact_container{
+    width: 100vw;
+  }
+
+  /* FOOTER */
+
+  .footer_container{
+    width: 100vw;
+  }
+
+  .footer_anchor_ul{
+    align-items: center;
+    column-gap: 30px;
+    flex-flow: row wrap;
   }
 
 }
