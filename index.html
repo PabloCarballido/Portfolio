@@ -49,22 +49,24 @@
 		</header>
 		<main>
 			<div class="presentation">
-				<section class="presentation_text">
-					<span>¡Hola! Soy</span>
-					<h1>Pablo Carballido</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-					<span class="presentation_text_button"
-						><a href="#projects">LO QUE HAGO</a></span
-					>
-				</section>
-				<section class="presentation_img">
-					<div>
-						<img
-							src="./assets/img/undraw_developer_activity_re_39tg.svg"
-							alt="banner"
-						/>
-					</div>
-				</section>
+				<div class="presentation_container">
+					<section class="presentation_text">
+						<span>¡Hola! Soy</span>
+						<h1>Pablo Carballido</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+						<span class="presentation_text_button"
+							><a href="#projects">LO QUE HAGO</a></span
+						>
+					</section>
+					<section class="presentation_img">
+						<div>
+							<img
+								src="./assets/img/undraw_developer_activity_re_39tg.svg"
+								alt="banner"
+							/>
+						</div>
+					</section>
+				</div>
 			</div>
 			<div class="conocimientos_bgc" id="conocimientos">
 				<div class="conocimientos_container">
@@ -134,10 +136,7 @@
 					</div>
 					<div class="project_gallery">
 						<div class="project_gallery_item">
-							<img
-								src="./assets/img/preview.png"
-								alt="proyecto porfolio"
-							/>
+							<img src="./assets/img/preview.png" alt="proyecto porfolio" />
 							<h4>Porfolio</h4>
 						</div>
 						<div class="project_gallery_item">
@@ -184,7 +183,9 @@
 						<section class="contact_social">
 							<div class="contact_social_text">
 								<h4>¡Contactame!</h4>
-								<p>¡Podes mirar el código de este porfolio o mandarme un mensaje!</p>
+								<p>
+									¡Podes mirar el código de este porfolio o mandarme un mensaje!
+								</p>
 							</div>
 							<div class="contact_social_list">
 								<div class="contact_social_list_item">
@@ -203,42 +204,54 @@
 						</section>
 						<section class="contact_msg">
 							<div class="contact_msg_text">
-							<h4>¡Dejame un mensaje!</h4>
-						</div>
-						<div class="contact_msg_form">
-							<form action="" method="get">
-								<div class="contact_msg_form_input">
-									<input
-										type="text"
-										name="name"
-										placeholder="Nombre"
-										required
-									/>
-									<input
-										type="email"
-										name="email"
-										placeholder="Email"
-										required
-									/>
-								</div>
-								<div class="contact_msg_form_textarea">
-									<textarea
-										name="message"
-										placeholder="Mensaje..."
-										cols="30"
-										rows="10"
-										required
-									></textarea>
-								</div>
-								<div class="contact_msg_form_button">
-									<button class="cssbuttons-io-button">Enviar
-										<div class="icon">
-										  <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="currentColor"></path></svg>
-										</div>
-									  </button>
-								</div>
-							</form>
-						</div>
+								<h4>¡Dejame un mensaje!</h4>
+							</div>
+							<div class="contact_msg_form">
+								<form action="" method="get">
+									<div class="contact_msg_form_input">
+										<input
+											type="text"
+											name="name"
+											placeholder="Nombre"
+											required
+										/>
+										<input
+											type="email"
+											name="email"
+											placeholder="Email"
+											required
+										/>
+									</div>
+									<div class="contact_msg_form_textarea">
+										<textarea
+											name="message"
+											placeholder="Mensaje..."
+											cols="30"
+											rows="10"
+											required
+										></textarea>
+									</div>
+									<div class="contact_msg_form_button">
+										<button class="cssbuttons-io-button">
+											Enviar
+											<div class="icon">
+												<svg
+													height="24"
+													width="24"
+													viewBox="0 0 24 24"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path d="M0 0h24v24H0z" fill="none"></path>
+													<path
+														d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+														fill="currentColor"
+													></path>
+												</svg>
+											</div>
+										</button>
+									</div>
+								</form>
+							</div>
 						</section>
 					</div>
 				</div>
