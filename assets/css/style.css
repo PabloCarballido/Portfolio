@@ -632,6 +632,14 @@ li.menu__container_contact a:hover {
 
 	/* SKILLS */
 
+  .conocimientos_bgc{
+    padding: 60px 0 95px;
+  }
+
+  .conocimientos_container{
+    width: 100%;
+  }
+
 	.conocimientos_gallery {
 		flex-flow: row wrap;
 	}
@@ -645,6 +653,28 @@ li.menu__container_contact a:hover {
 		width: 160px;
 		margin: 0 10px;
 	}
+
+  /* HOBBIES */
+
+  .hobbies_text{
+    text-align: center;
+  }
+
+  /* PROJECTS */
+
+  .project_container{
+    gap: 50px;
+    padding: 75px 0;
+  }
+
+  .project_text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+    line-height: normal;
+  }
+
+
 
   /* CONTACT */
 
