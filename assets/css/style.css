@@ -628,7 +628,7 @@ li.menu__container_contact a:hover {
 	}
 
 	.presentation_img div img {
-		width: 390px;
+		width: 375px;
 	}
 
 	/* SKILLS */
@@ -685,18 +685,18 @@ li.menu__container_contact a:hover {
   /* CONTACT */
 
   .contact_bgc{
-    padding: 70px 10px;
+    padding: 70px 0px;
   }
 
   .contact_container{
-    width: 98%;
+    width: 100%;
     padding: 25px 0;
   }
 
   .contact_container_item{
     flex-direction: column;
     justify-content: space-between;
-    row-gap: 45px;
+    row-gap: 55px;
   }
 
   .contact_social{
