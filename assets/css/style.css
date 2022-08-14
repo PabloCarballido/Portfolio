@@ -696,12 +696,16 @@ li.menu__container_contact a:hover {
   .contact_container_item{
     flex-direction: column;
     justify-content: space-between;
-    row-gap: 30px;
+    row-gap: 45px;
   }
 
   .contact_social{
     width: 90%;
     margin: 0 auto;
+  }
+
+  .contact_social_list_item span{
+    font-size: 17px;
   }
 
   .contact_msg{
