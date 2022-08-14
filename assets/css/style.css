@@ -643,6 +643,7 @@ li.menu__container_contact a:hover {
 
 	.conocimientos_gallery {
 		flex-flow: row wrap;
+    width: 100%;
 	}
 
 	.conocimientos_text h3,
