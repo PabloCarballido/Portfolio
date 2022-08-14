@@ -282,12 +282,13 @@ li.menu__container_contact a:hover {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
+  row-gap: 30px;
 }
 
 .hobbies_gallery_item {
 	width: 300px;
 	padding: 20px;
-	margin: 10px 40px;
+	margin: 0 40px;
 	border-radius: 10px;
 	display: flex;
 	flex-direction: column;
@@ -660,6 +661,10 @@ li.menu__container_contact a:hover {
     text-align: center;
   }
 
+  .hobbies_gallery{
+    margin-top: 45px;
+  }
+
   /* PROJECTS */
 
   .project_container{
@@ -682,7 +687,26 @@ li.menu__container_contact a:hover {
     padding: 70px 10px;
   }
 
+  .contact_container{
+    width: 95%;
+    padding: 25px 0;
+  }
 
+  .contact_container_item{
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 30px;
+  }
+
+  .contact_social{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .contact_msg{
+    width: 90%;
+    margin: 0 auto;
+  }
 
   /* FOOTER */
 
